@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{pgfplots}
+\usepackage{tikz}
+
+\begin{document}
+\title{ASSIGNMENT 3}
+\author{Showqeen Yousuf}
+\date{\today}
+\maketitle
+
+\begin{itemize}
+\item{\textbf{Question: Construct an isosceles triangle whose base is $a=8cm$ and altitude is $AD=h=4cm$}}\\
+
+\item{\textbf{Solution:}}\\
+
+Given,\\
+$
+\hspace{1 cm}Base: a=8cm, and\\
+$\\
+$
+\hspace{1 cm}Altitude:AD=h=4cm\\
+$\\
+$
+$\\
+\textit{Steps of construction:}
+$
+
+1: Draw the base line of length 8 cm.\\
+
+2: At the mid point of base line draw a perpendicular of length 4 cm.\\
+
+3: Join the starting and end points of base line with the top of perpendicular.\\
+$
+
+\\
+\\
+Now, using Latex-tikz  below is the required triangle.
+\begin{center}
+\begin{tikzpicture}
+
+\draw(0,0)--(8,0)--(4,0)--(4,4)--(0,0)--(4,4)--(8,0)--cycle;
+\node at(4,4)[above left]{$(4,4)$};
+\node at(0,0)[below left]{$(0,0)$};
+\node at(8,0)[below right]{$(8,0)$}; 
+\end{tikzpicture}
+\end{center}
+
+\end{itemize}
+\end{document}
